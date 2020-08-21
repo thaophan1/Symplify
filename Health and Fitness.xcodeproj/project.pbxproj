@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6203020B24D102D5009DC1B7 /* SymptomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6203020A24D102D5009DC1B7 /* SymptomCell.swift */; };
+		62288E3824D5006A0000D1EA /* DiagnosisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62288E3724D5006A0000D1EA /* DiagnosisCell.swift */; };
+		6238414024AFFABC00BE1645 /* Symptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6238413F24AFFABC00BE1645 /* Symptoms.swift */; };
+		624F433124AE6BFB009DE306 /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624F433024AE6BFB009DE306 /* SymptomsViewController.swift */; };
 		627D51C124A955D80034D19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D51C024A955D80034D19E /* AppDelegate.swift */; };
 		627D51C324A955D80034D19E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D51C224A955D80034D19E /* SceneDelegate.swift */; };
-		627D51C524A955D80034D19E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D51C424A955D80034D19E /* ViewController.swift */; };
+		627D51C524A955D80034D19E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D51C424A955D80034D19E /* HomeViewController.swift */; };
 		627D51C824A955D80034D19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627D51C624A955D80034D19E /* Main.storyboard */; };
 		627D51CA24A955DC0034D19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627D51C924A955DC0034D19E /* Assets.xcassets */; };
 		627D51CD24A955DC0034D19E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627D51CB24A955DC0034D19E /* LaunchScreen.storyboard */; };
 		627D51D824A955DC0034D19E /* Health_and_FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D51D724A955DC0034D19E /* Health_and_FitnessTests.swift */; };
 		627D51E324A955DC0034D19E /* Health_and_FitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D51E224A955DC0034D19E /* Health_and_FitnessUITests.swift */; };
+		62A4646D24D230E500BE0E19 /* DiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4646C24D230E500BE0E19 /* DiagnosisViewController.swift */; };
+		62B1656F24C27EEF0057ECB6 /* SQlite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B1656E24C27EEF0057ECB6 /* SQlite.swift */; };
+		62B1657124C28D820057ECB6 /* APIFuncions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B1657024C28D820057ECB6 /* APIFuncions.swift */; };
+		62B48CC724DBD9B500C4B363 /* DetailedDiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B48CC624DBD9B500C4B363 /* DetailedDiagnosisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6203020A24D102D5009DC1B7 /* SymptomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomCell.swift; sourceTree = "<group>"; };
+		62288E3724D5006A0000D1EA /* DiagnosisCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisCell.swift; sourceTree = "<group>"; };
+		6238413F24AFFABC00BE1645 /* Symptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptoms.swift; sourceTree = "<group>"; };
+		624F433024AE6BFB009DE306 /* SymptomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsViewController.swift; sourceTree = "<group>"; };
 		627D51BD24A955D80034D19E /* Health and Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health and Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		627D51C024A955D80034D19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		627D51C224A955D80034D19E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		627D51C424A955D80034D19E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		627D51C424A955D80034D19E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		627D51C724A955D80034D19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		627D51C924A955DC0034D19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		627D51CC24A955DC0034D19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		627D51DE24A955DC0034D19E /* Health and FitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health and FitnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		627D51E224A955DC0034D19E /* Health_and_FitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_and_FitnessUITests.swift; sourceTree = "<group>"; };
 		627D51E424A955DC0034D19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A4646C24D230E500BE0E19 /* DiagnosisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisViewController.swift; sourceTree = "<group>"; };
+		62B1656E24C27EEF0057ECB6 /* SQlite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQlite.swift; sourceTree = "<group>"; };
+		62B1657024C28D820057ECB6 /* APIFuncions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFuncions.swift; sourceTree = "<group>"; };
+		62B48CC624DBD9B500C4B363 /* DetailedDiagnosisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedDiagnosisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +117,15 @@
 			children = (
 				627D51C024A955D80034D19E /* AppDelegate.swift */,
 				627D51C224A955D80034D19E /* SceneDelegate.swift */,
-				627D51C424A955D80034D19E /* ViewController.swift */,
+				627D51C424A955D80034D19E /* HomeViewController.swift */,
+				624F433024AE6BFB009DE306 /* SymptomsViewController.swift */,
+				62A4646C24D230E500BE0E19 /* DiagnosisViewController.swift */,
+				62B48CC624DBD9B500C4B363 /* DetailedDiagnosisViewController.swift */,
+				62B1657024C28D820057ECB6 /* APIFuncions.swift */,
+				6238413F24AFFABC00BE1645 /* Symptoms.swift */,
+				6203020A24D102D5009DC1B7 /* SymptomCell.swift */,
+				62288E3724D5006A0000D1EA /* DiagnosisCell.swift */,
+				62B1656E24C27EEF0057ECB6 /* SQlite.swift */,
 				627D51C624A955D80034D19E /* Main.storyboard */,
 				627D51C924A955DC0034D19E /* Assets.xcassets */,
 				627D51CB24A955DC0034D19E /* LaunchScreen.storyboard */,
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				627D51C524A955D80034D19E /* ViewController.swift in Sources */,
+				6238414024AFFABC00BE1645 /* Symptoms.swift in Sources */,
+				62288E3824D5006A0000D1EA /* DiagnosisCell.swift in Sources */,
+				627D51C524A955D80034D19E /* HomeViewController.swift in Sources */,
 				627D51C124A955D80034D19E /* AppDelegate.swift in Sources */,
+				62B1656F24C27EEF0057ECB6 /* SQlite.swift in Sources */,
+				62B1657124C28D820057ECB6 /* APIFuncions.swift in Sources */,
+				62A4646D24D230E500BE0E19 /* DiagnosisViewController.swift in Sources */,
+				6203020B24D102D5009DC1B7 /* SymptomCell.swift in Sources */,
+				624F433124AE6BFB009DE306 /* SymptomsViewController.swift in Sources */,
+				62B48CC724DBD9B500C4B363 /* DetailedDiagnosisViewController.swift in Sources */,
 				627D51C324A955D80034D19E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UZ3HMJTNJ;
 				INFOPLIST_FILE = "Health and Fitness/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UZ3HMJTNJ;
 				INFOPLIST_FILE = "Health and Fitness/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
